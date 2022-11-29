@@ -1,0 +1,104 @@
+/* Navigation Bar */
+#NavBar{
+    background-color: black;
+    
+}
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand{
+    font-family:'Nerko One', cursive;
+    
+    font-size: 2.5rem;
+    
+}
+.container-fluid{
+    padding: 0% 10% 0 10%;
+    background-color: black;
+}
+.line{
+    opacity: 30%;
+    height: 0.25px;
+    width: 900;
+    background-color: grey;
+    text-align: center;
+}
+
+.download-button{
+    border-radius: 100px;
+    font-family:'Inter', sans-serif;
+    font-weight: 600;
+    color: #CFE064;
+    border-color: #CFE064;
+    border-width: 2px;
+    /* margin: 0 35px; */
+}
+
+.nav-item{
+    margin: 0 18px;
+    font-family:'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1.15rem;
+    letter-spacing:-0.36px;
+    
+    
+}
+.navbar-toggler-icon{
+    border-radius: 100%;
+}
+
+/* TitlePage */
+
+
+
+#titlePage{
+    padding: 8% 10%;
+    background-color: black;
+
+}
+h1{
+    color: white;
+    font-family:'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height:72px;
+
+}
+p{
+    font-family:'Inter', sans-serif;
+    color: white;
+    opacity: 50%;
+    font-size: 18px;
+    margin: 50px 100px 50px 0px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.line-two{
+    background-color: #CFE064;
+    height: 4px;
+    width: 100px;
+    margin-bottom: 25px;
+}
+.title-text{
+    padding-right: 30px;
+}
+
+.statue-img{
+    width: 550px;
+}
+@media (max-width: 600px){
+    h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #titlePage{
+        padding: 3% 5%;
+        background-color: black;
+    
+    }
+    .container-fluid{
+        padding: 0% 10% 0 3%;
+        background-color: black;
+    }
+}
